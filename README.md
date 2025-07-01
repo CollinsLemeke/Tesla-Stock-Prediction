@@ -1,7 +1,7 @@
 Stock Price Prediction using LSTM
 This project focuses on building a Recurrent Neural Network (RNN) using Long Short-Term Memory (LSTM) layers to predict the Close price of a stock based on historical stock data. The model aims to capture temporal dependencies and patterns in stock prices to improve forecasting accuracy.
 
-🎯 Project Objective
+Project Objective
 The primary goal of this project is to:
 
 Predict future stock Close prices using historical data.
@@ -12,7 +12,7 @@ Incorporate numerical features and date-related components (year, month, day, et
 
 Minimize prediction error (Mean Squared Error, Mean Absolute Error) to support trading strategies and market analysis.
 
-⚙️ Libraries and Tools Used
+⚙Libraries and Tools Used
 python
 Copy
 Edit
@@ -28,7 +28,8 @@ from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, LSTM, Dropout
 from keras.callbacks import EarlyStopping
 from keras.optimizers import Adam
-📝 Workflow Overview
+
+Workflow Overview
 Data Loading
 
 Read historical stock data including Close prices and date information.
@@ -71,7 +72,7 @@ R² score
 
 Visualize actual vs predicted Close prices.
 
-📈 Expected Outcome
+Expected Outcome
 The model should learn meaningful temporal patterns in stock data.
 
 Accurate predictions of Close prices with minimized error.
