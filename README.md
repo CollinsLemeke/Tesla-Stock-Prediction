@@ -12,7 +12,7 @@ Incorporate numerical features and date-related components (year, month, day, et
 
 Minimize prediction error (Mean Squared Error, Mean Absolute Error) to support trading strategies and market analysis.
 
-⚙Libraries and Tools Used
+Libraries and Tools Used
 python
 Copy
 Edit
